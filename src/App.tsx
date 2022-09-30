@@ -1,6 +1,9 @@
 import { useState } from 'react';
+
 import reactLogo from './assets/react.svg';
 import './App.css';
+import Comp1 from './components/Comp1';
+import Comp2 from './components/Comp2';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -22,6 +25,8 @@ function App() {
                     Edit <code>src/App.tsx</code> and save to test HMR
                 </p>
             </div>
+            <Comp1 />
+            <Comp2 />
             <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
         </div>
     );
