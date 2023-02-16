@@ -25,3 +25,4 @@ Todo:
 - add Vitest and at least 1 test
 - add Husky to run tests
 - add lint staged with pre-commit linting
+- add MSW with a basic config
